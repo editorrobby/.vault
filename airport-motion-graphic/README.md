@@ -18,6 +18,7 @@ spaced-out uppercase titles.
 | `output/airports.mp4` | Final video with on-screen captions and soundtrack |
 | `output/airports_clean.mp4` | Same video without captions (for laying under a voiceover) |
 | `output/music.wav` | The soundtrack on its own (ambient pad, music box, chime and sound effects) |
+| `output/Airports_AfterEffects.zip` | Editable After Effects project (builder script, fonts, music). See `after-effects/README.md` |
 | `index.html` + `anim.js` | The animation source. Open `index.html` in a browser for a live preview (`?notext` hides captions) |
 | `render.js` | Renders frames with headless Chromium and encodes them with ffmpeg |
 | `music.py` | Generates the soundtrack (needs numpy) |
