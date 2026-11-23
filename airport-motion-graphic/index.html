@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Airports — Motion Graphic</title>
+<style>
+  @font-face { font-family: "Montserrat"; font-weight: 300; src: url(fonts/montserrat-latin-300-normal.woff2) format("woff2"); }
+  @font-face { font-family: "Montserrat"; font-weight: 400; src: url(fonts/montserrat-latin-400-normal.woff2) format("woff2"); }
+  @font-face { font-family: "Montserrat"; font-weight: 500; src: url(fonts/montserrat-latin-500-normal.woff2) format("woff2"); }
+  html, body { margin: 0; height: 100%; background: #111; }
+  body { display: flex; align-items: center; justify-content: center; }
+  canvas { width: 100vw; height: 56.25vw; max-height: 100vh; max-width: 177.78vh; display: block; }
+  body.render canvas { width: 1920px; height: 1080px; max-width: none; max-height: none; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script src="anim.js"></script>
+</body>
+</html>
